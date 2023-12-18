@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "rewrites": [
+    {
+      "source": "/:dummy?",
+      "destination": "/api"
+    }
+  ],
+  "trailingSlash": false
+}
