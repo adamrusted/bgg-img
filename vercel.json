@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:username",
-      "destination": "/api"
+      "destination": "/api/plays"
     },
     {
       "source": "/",
