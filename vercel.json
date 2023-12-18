@@ -1,5 +1,5 @@
 {
   "trailingSlash": false,
-  "buildCommand": "npm install --production && tsc",
+  "buildCommand": "npm install --omit=dev && tsc",
   "outputDirectory": "dist"
 }
