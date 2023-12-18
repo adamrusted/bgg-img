@@ -1,12 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/:username",
+      "source": "/plays/:username",
       "destination": "/api/plays"
     },
     {
       "source": "/",
       "destination": "https://github.com/adamrusted/bgg-img"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/404"
     }
   ],
   "trailingSlash": false
