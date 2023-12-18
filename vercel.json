@@ -1,0 +1,5 @@
+{
+  "trailingSlash": false,
+  "buildCommand": "npm install --production && tsc",
+  "outputDirectory": "dist"
+}
