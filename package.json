@@ -1,10 +1,13 @@
 {
+  "private": true,
   "name": "bgg-img",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "type": "module",
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Adam Rusted"
+  },
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node21": "21.0.0",

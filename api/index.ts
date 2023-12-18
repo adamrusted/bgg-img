@@ -1,1 +1,1 @@
-export { default } from '../src/test'
+export { default } from '../src/bgg.ts'
