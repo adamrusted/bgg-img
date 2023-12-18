@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "exports": "./api/index.js",
-  "type": "module",
   "scripts": {
     "build": "tsc"
   },
